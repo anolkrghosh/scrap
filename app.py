@@ -19,9 +19,6 @@ for row in content.findAll('h4'):
 
 titles.remove(titles[0])
 titles.remove(titles[-1])
-
-print(info)
-
 data = dict (zip(titles, info))
 print(data)
 
